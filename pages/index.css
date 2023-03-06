@@ -52,7 +52,7 @@
   box-sizing: border-box;
 }
 
-.footer_list {
+.footer__list {
   align-items: center;
   list-style-type: none;
   font-family: "Inter";
@@ -61,6 +61,9 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+}
+
+.footer__hours {
 }
 
 .header__subtitle {
