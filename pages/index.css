@@ -156,7 +156,7 @@
   margin-bottom: 80px;
 }
 
-.recipes__iframe {
+.recipes-videos__iframe {
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -165,7 +165,7 @@
   gap: 40px;
 }
 
-.recipes__iframe_videos {
+.recipes-videos__videos {
   display: inline-block;
   justify-content: space-between;
   width: 480px;
