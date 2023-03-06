@@ -19,7 +19,7 @@
   background-size: cover;
 }
 
-.header_title {
+.header__title {
   max-width: 729px;
   margin-top: 80px;
   margin-bottom: 0;
@@ -63,7 +63,7 @@
   color: #838383;
 }
 
-.header_title_accent {
+.header__title_accent {
   display: block;
   font-family: "Noto Serif";
   font-style: italic;
