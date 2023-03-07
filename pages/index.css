@@ -44,7 +44,7 @@
   font-size: 20px;
   line-height: 30px;
 }
-.footer {
+.header-footer {
   position: absolute;
   left: 0;
   bottom: 40px;
@@ -56,7 +56,7 @@
   box-sizing: border-box;
 }
 
-.footer__list {
+.header-footer__list {
   align-items: center;
   list-style-type: none;
   font-family: "Inter";
@@ -67,7 +67,7 @@
   color: #838383;
 }
 
-.footer__hours {
+.header-footer__hours {
 }
 
 .header__subtitle {
@@ -80,7 +80,7 @@
   color: #2f80ed;
 }
 
-.footer__address {
+.header-footer__address {
   margin: 0;
   font-family: "Inter";
   font-style: normal;
