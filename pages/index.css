@@ -89,7 +89,7 @@
 }
 .header__image {
   position: absolute;
-  height: 646;
+  height: 646px;
   width: 568px;
   top: 124px;
   right: 5px;
@@ -119,8 +119,8 @@
 }
 
 .logo {
-  height: 125;
-  width: 142;
+  height: 125px;
+  width: 142px;
 }
 
 .recipes {
@@ -166,6 +166,10 @@
 .recipes__iframe {
   display: inline-block;
   justify-content: center;
+  id="ytplayer"
+                  width="480"
+                  height="273"
+
 }
 
 .recipes__caption {
