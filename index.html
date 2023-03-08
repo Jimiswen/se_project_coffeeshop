@@ -117,9 +117,7 @@
         </section>
         <section class="reservation" id="book">
           <div class="reservation__form">
-            <div class="reservation__title">
-              <p>Book a table</p>
-            </div>
+            <h2 class="reservation__title">Book a table</h2>
             <form class="form">
               <fieldset class="form__fieldset">
                 <label for="Name" class="form__label"> Name *</label>
@@ -151,11 +149,10 @@
                   id="email"
                   name="email"
                 />
-              </fieldset>
-            </form>
-            <form class="form reservation__form">
-              <fieldset class="form__fieldset">
-                <button class="form__button" type="submit">Book a table</button>
+
+                <button class="form__label form__button" type="submit">
+                  Book a table
+                </button>
 
                 <input
                   type="checkbox"
@@ -163,8 +160,7 @@
                   name="button"
                   id="button"
                 />
-
-                <label for="button" class="form__label"
+                <label for="button" class="form__input_type_checkbox"
                   >I agree with the terms of use</label
                 >
               </fieldset>
