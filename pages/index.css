@@ -224,13 +224,6 @@
 .form {
   display: block;
 }
-.reservation__title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-}
 
 .form__fieldset {
   position: relative;
