@@ -214,11 +214,13 @@
   line-height: 20px;
   margin-bottom: 32px;
   margin: 0 auto;
+  width: 50%;
 }
 .form {
   display: flex;
   flex-flow: column;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .form__fieldset {
@@ -234,11 +236,11 @@
   display: block;
   margin: auto;
   max-width: 385px;
-  margin-bottom: 32px;
 }
 .form__input {
   width: 385px;
   height: 60px;
+  margin-bottom: 32px;
 }
 .form__button {
   font-family: Inter;
@@ -251,7 +253,7 @@
   color: white;
   border: none;
   width: 385px;
-  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .form__input_type_checkbox {
   font-family: Inter;
@@ -261,7 +263,9 @@
   line-height: 20px;
   margin-bottom: 32px;
   border: none;
-  display: block;
+  display: inline-block;
+  margin-right: 12px;
+  float: right;
 }
 
 .menu {
