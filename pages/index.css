@@ -263,9 +263,9 @@
   line-height: 20px;
   margin-bottom: 32px;
   border: none;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   margin-right: 12px;
-  float: right;
 }
 
 .menu {
