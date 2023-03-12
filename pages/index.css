@@ -1,15 +1,22 @@
-.page {
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/recipes.css);
+@import url(../blocks/menu.css);
+@import url(../blocks/about.css);
+@import url(../blocks/reservation.css);
+@import url(../blocks/footer.css);
+
+/*.page {
   min-width: 1100px;
-  max-width: 1600px;
+  max-width: 100%px;
   font-family: "inter", arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
-}
-.content {
-}
+}*/
 
-.header {
+/*.header {
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
@@ -66,9 +73,6 @@
   color: #838383;
 }
 
-.header-footer__hours {
-}
-
 .header__subtitle {
   display: block;
   font-family: "Noto Serif";
@@ -96,9 +100,6 @@
   right: 5px;
 }
 
-.content {
-}
-
 .footer {
 }
 
@@ -122,9 +123,9 @@
 .logo {
   height: 125px;
   width: 142px;
-}
+}*/
 
-.recipes {
+/*.recipes {
   background-size: cover;
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
@@ -184,9 +185,9 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 215px;
-}
+}*/
 
-.reservation {
+/*.reservation {
   background-color: #d9e7ff;
   background-image: url("../images/background_reservation.svg");
   background-size: cover;
@@ -264,11 +265,11 @@
   display: flex;
   justify-content: center;
   margin-right: 12px;
-}
+}*/
 
-.menu {
+/*.menu {
   min-height: 100%;
-  padding-top: 100px 80px 100px 80px;
+  padding: 100px 80px 100px 80px;
   position: relative;
   background-image: url("../images/background_menu.svg");
   background-repeat: no-repeat;
@@ -302,7 +303,7 @@
   margin-bottom: 100px;
 }
 
-.card {
+.menu__card {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -313,10 +314,8 @@
   margin-bottom: 100px;
 }
 
-.card__card {
-  width: 350px;
-  gap: 100px;
-  margin: 0 auto;
+.card {
+  width: 540px;
 }
 
 .card__title {
@@ -350,9 +349,9 @@
 .card__list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
-}
+}*/
 
-.about {
+/*.about {
   display: flex;
   background-color: #0a2850;
   justify-content: space-between;
@@ -511,4 +510,4 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-}
+}*/

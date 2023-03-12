@@ -1,0 +1,83 @@
+.menu {
+  min-height: 100%;
+  padding: 100px 80px 100px 80px;
+  position: relative;
+  background-image: url("../images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu__title {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-top: 24px;
+  max-width: 780px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+}
+
+.menu__subtitle {
+  text-align: center;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.menu__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 0 0 0;
+  margin: 0 auto;
+  gap: 100px;
+  width: 1200px;
+  margin-bottom: 100px;
+}
+
+.card {
+  width: 540px;
+}
+
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 100px;
+  margin-bottom: 32px;
+  padding-top: 0;
+}
+
+.card__title_list {
+  margin: 0 auto;
+  padding: 0 0 32px 0;
+  width: 550px;
+  list-style: none;
+  line-height: 2;
+}
+
+.card__list-item {
+  display: flex;
+  margin: 0 auto;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+}
