@@ -1,6 +1,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  margin: 30px 80px 0 0;
 }
 
 .nav__links {
@@ -8,7 +9,8 @@
   list-style: none;
   column-gap: 20px;
   padding: 0;
-  font-family: "Inter";
+  margin: 30px 0 0 0;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
