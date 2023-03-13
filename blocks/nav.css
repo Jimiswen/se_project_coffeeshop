@@ -8,10 +8,9 @@
   display: flex;
   list-style: none;
   column-gap: 20px;
-  padding: 0;
-  margin: 30px 0 0 0;
-
-  font-color: #000000;
+  padding-top: 30px;
+  margin: 0 0 0 0;
+  color: #000000;
 }
 
 .nav__link {
@@ -21,7 +20,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  gap: 20px;
+  text-decoration: none;
 }
 
 .nav__link:hover {
