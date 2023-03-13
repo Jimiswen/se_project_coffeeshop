@@ -7,7 +7,6 @@
   position: relative;
   box-sizing: border-box;
   margin: 0;
-  z-index: 0;
 }
 
 .about__title {
@@ -24,7 +23,7 @@
 .about__content {
   display: flex;
   flex-direction: column;
-  font-family: "Noto Serif", "Times New Roman", Times, serif, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -33,7 +32,6 @@
   margin-bottom: 173px;
   margin-right: 80px;
   margin-top: 119px;
-  gap: 20px;
 }
 
 .about__paragraph {
@@ -48,7 +46,6 @@
   width: 426px;
   height: 426px;
   border-radius: 50%;
-  z-index: 0;
 }
 
 .about__circle_animation_blurred {

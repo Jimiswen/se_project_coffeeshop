@@ -12,9 +12,6 @@
   justify-content: space-between;
 }
 
-.footer__column_social {
-}
-
 .footer__logo {
   width: 116px;
   height: 21px;
@@ -49,9 +46,6 @@
 }
 .footer__column-link:hover {
   color: #c1c1c1;
-}
-
-.footer__social-icon {
 }
 
 .footer__copyright {

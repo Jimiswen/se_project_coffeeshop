@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 800px;
+  width: 540px;
   margin: 0;
   padding: 0;
+  gap: 100px;
 }
 
 .card__title {
@@ -18,13 +19,12 @@
 }
 
 .card__ul {
-  padding: 0 0 0 0;
+  padding: 0;
 }
 
 .card__list {
   margin: 0 auto;
   list-style: none;
-  line-height: 16px;
 }
 
 .card__list-item {
