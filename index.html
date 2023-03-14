@@ -29,7 +29,6 @@
             alt="Practicum Coffee Shop Logo"
             class="logo"
           />
-
           <ul class="nav__links">
             <li><a class="nav__link" href="#recipes">Recipes</a></li>
             <li>
@@ -38,7 +37,6 @@
             <li>
               <a class="nav__link" href="#menu">Menu</a>
             </li>
-            <li></li>
             <li>
               <a class="nav__link" href="#about">contacts</a>
             </li>
@@ -59,7 +57,7 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div class="header__hours">
+          <div class="header__paragraph">
             Hours:
             <div class="header__paragraph">
               Monday - Friday (10:00 - 19:00)
@@ -81,36 +79,28 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <ul>
-              <li class="recipes__ulbullets">
+          <div>
+            <ul class="recipes__videos">
+              <li class="recipes__nobullets">
                 <iframe
                   class="recipes__iframe"
                   id="ytplayer"
                   src="https://www.youtube.com/embed/st571DYYTR8"
                   allowfullscreen
                 ></iframe>
-              </li>
-              <li class="recipes__ulbullets">
                 <p class="recipes__caption">
                   <span>Aeropress recipe</span>
                   <span>~5 min</span>
                 </p>
               </li>
-            </ul>
-
-            <ul class="recipes__ulbullets">
-              <li class="recipes__ulbullets">
+              <li class="recipes__nobullets">
                 <iframe
                   class="recipes__iframe"
                   src="https://www.youtube.com/embed/j6VlT_jUVPc"
                   allowfullscreen
                 ></iframe>
-              </li>
-              <li class="recipes__ulbullets">
                 <p class="recipes__caption">
                   <span> French press recipe </span>
-
                   <span>~15 min</span>
                 </p>
               </li>
@@ -129,12 +119,12 @@
                 id="Name"
                 name="Name"
                 placeholder="Name Surname"
+                required
               />
 
               <label for="guests" class="form__label">
                 Number of guests *</label
               >
-
               <input
                 type="number"
                 class="form__input"
@@ -143,10 +133,11 @@
                 min="1"
                 max="8"
                 placeholder="1 - 8"
+                required
               />
 
               <label for="date" class="form__label">Date & time *</label>
-              <input type="number" class="form__input" id="date" name="date" />
+              <input type="date" class="form__input" id="date" name="date" />
 
               <label for="email" class="form__label">Your email *</label>
               <input
@@ -154,6 +145,7 @@
                 class="form__input"
                 id="email"
                 placeholder="email@email.com"
+                required
               />
 
               <button type="button" class="form__button">Book a table</button>
@@ -165,21 +157,21 @@
                   name="checkbox"
                   id="checkbox"
                   checked
+                  required
                 />I agree with the terms of use</label
               >
             </fieldset>
           </form>
         </section>
         <section class="menu" id="menu">
-          <h4 class="menu__title">Menu</h4>
+          <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
-
           <div class="menu__cards">
             <div class="card">
-              <p class="card__title">Filter</p>
+              <h3 class="card__title">Filter</h3>
               <ul class="card__ul">
                 <li class="card__list-item">
                   Regular (12 oz)
@@ -208,9 +200,8 @@
                 </li>
               </ul>
             </div>
-
             <div class="card">
-              <p class="card__title">Espresso</p>
+              <h3 class="card__title">Espresso</h3>
               <ul class="card__ul">
                 <li class="card__list-item">
                   Macchiato
@@ -235,7 +226,7 @@
               </ul>
             </div>
             <div class="card">
-              <p class="card__title">Baked Goods</p>
+              <h3 class="card__title">Baked Goods</h3>
               <ul class="card__ul">
                 <li class="card__list-item">
                   Almond Croissant
@@ -273,7 +264,7 @@
         </section>
 
         <section class="about" id="about">
-          <h5 class="about__title">About the coffee shop</h5>
+          <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Practicum Library's hall. It
@@ -293,7 +284,7 @@
         </section>
       </main>
       <footer class="footer" id="too-footer">
-        <div class="footer__content">
+        <div class="footer__social-heading">
           <img
             class="footer__logo"
             src="./images/practicum_logo.svg"
@@ -301,7 +292,7 @@
           />
 
           <div class="footer__social">
-            <h2 class="footer__content">Social Media</h2>
+            <h2 class="footer__social-heading">Social Media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__social-link" href="#">

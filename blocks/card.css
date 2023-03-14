@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 520px;
+  width: 540px;
   margin: 0;
   padding: 0;
 }
@@ -24,12 +24,14 @@
 
 .card__list-item {
   display: flex;
-  margin: 0 auto;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   margin: 0 0 16px 0;
+}
+.card__list-item:last-child {
+  margin: 0;
 }
 
 .card__list-divider {
