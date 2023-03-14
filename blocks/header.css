@@ -53,20 +53,16 @@
   z-index: 0;
 }
 .header__footer {
-  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
   margin-top: auto;
   left: 0;
   bottom: 40px;
   width: 100%;
   padding: 40px 80px 0;
-  justify-content: space-between;
-  box-sizing: border-box;
 }
 
 .header__paragraph {
-  align-items: center;
-  justify-content: space-between;
-  list-style-type: none;
   font-family: "Inter" Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -76,18 +72,6 @@
 }
 
 .header__hours {
-  list-style-type: none;
-  margin: 0;
-  font-family: "Inter" Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-}
-
-.header__address {
-  margin-left: auto;
   font-family: "Inter" Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
