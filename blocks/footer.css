@@ -10,11 +10,11 @@
 
 .footer__content {
   margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__social-heading {
-  display: flex;
-  justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
