@@ -3,14 +3,19 @@
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
   min-height: 224px;
+  min-height: 224px;
   padding: 60px 102px 60px 80px;
+  margin: 0;
+}
+
+.footer__content {
   margin: 0;
 }
 
 .footer__social-heading {
   display: flex;
   justify-content: space-between;
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -26,7 +31,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

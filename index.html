@@ -12,7 +12,7 @@
     />
     <title>Coffee Shop</title>
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="stylesheet" href="favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -57,18 +57,15 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div class="header__paragraph">
-            Hours:
-            <div class="header__paragraph">
-              Monday - Friday (10:00 - 19:00)
-              <div class="header__paragraph">
-                Saturday - Sunday (11:00 - 18:00)
-              </div>
-            </div>
+          <div>
+            <p class="header__paragraph">Hours</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
-          <div class="header__paragraph">
+
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Practicum
-          </div>
+          </p>
         </div>
       </header>
       <main class="content">
@@ -107,9 +104,9 @@
           </div>
         </section>
         <section class="reservation" id="book">
-          <h3 class="reservation__title">Book a table</h3>
-          <form class="form reservation__form">
-            <fieldset class="form__fieldset">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="form form__fieldset">
               <label for="Name" class="form__label"> Name *</label>
               <input
                 type="text"
@@ -133,7 +130,12 @@
                 required
               />
               <label for="date" class="form__label">Date & time *</label>
-              <input type="date" class="form__input" id="date" name="date" />
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date"
+                name="date"
+              />
               <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
@@ -276,13 +278,13 @@
         </section>
       </main>
       <footer class="footer" id="too-footer">
-        <div class="footer__social-heading">
+        <div class="footer__content">
           <img
             class="footer__logo"
             src="./images/practicum_logo.svg"
             alt="Practicum Logo"
           />
-          <div class="footer__social">
+          <div class="footer__social-heading">
             <h2 class="footer__social-heading">Social Media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">

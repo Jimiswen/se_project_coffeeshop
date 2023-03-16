@@ -1,11 +1,9 @@
 .menu {
-  padding: 100px 80px 100px 80px;
   background-image: url("../images/background_menu.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin: 0;
-  padding: 0;
 }
 
 .menu__title {
@@ -17,9 +15,6 @@
   line-height: 52px;
   max-width: 780px;
   margin: 100px auto 24px auto;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 100px;
   padding: 0;
 }
 
