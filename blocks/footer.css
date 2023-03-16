@@ -42,11 +42,9 @@
 .footer__list-item {
   margin: 0 0 16px 0px;
 }
+
 .footer__list-item:last-of-type {
   margin-bottom: 0;
-}
-
-.footer__social- {
 }
 
 .footer__social-icon {

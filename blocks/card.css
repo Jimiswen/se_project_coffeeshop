@@ -1,7 +1,4 @@
 .card {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   width: 540px;
 }
 
@@ -28,6 +25,7 @@
   font-size: 16px;
   margin: 0 0 16px 0;
 }
+
 .card__list-item:last-child {
   margin: 0;
 }

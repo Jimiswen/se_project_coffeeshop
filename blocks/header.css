@@ -52,7 +52,8 @@
   right: 5px;
   z-index: -1;
 }
-.header-footer {
+
+.header__footer {
   position: absolute;
   display: flex;
   align-items: flex-end;
@@ -65,7 +66,7 @@
   box-sizing: border-box;
 }
 
-.header-footer__paragraph {
+.header__paragraph {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
